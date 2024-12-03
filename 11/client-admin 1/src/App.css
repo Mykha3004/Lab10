@@ -1,0 +1,176 @@
+/* General Styles */
+.body-customer {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+div.inline {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
+figure.caption-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.align-center {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+span.link {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+span.link:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+/* Menu */
+div.border-bottom {
+  border-bottom: 2px solid #ddd;
+  padding: 15px 0;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+div.float-left {
+  float: left;
+}
+
+div.float-right {
+  float: right;
+}
+
+div.float-clear {
+  clear: both;
+}
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+li.menu {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+}
+
+li.menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.menu a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Search Bar */
+form.search {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+input.keyword {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input.keyword:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Datatable */
+.datatable {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.datatable th, .datatable td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.datatable th {
+  background-color: #007bff;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) .datatable {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) .datatable {
+  background-color: #fff;
+}
+
+tr:hover .datatable {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
